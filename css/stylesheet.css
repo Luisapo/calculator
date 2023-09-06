@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;    
+    height: 75vmin;
+    width: 75vmin; 
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+.display {
+    display: flex;
+    align-items: stretch;
+    background-color: #272829;
+    padding: 8%;
+    color: white;   
+    justify-content: flex-end;
+    font-size: xx-large;
+    
+}
+
+#all-buttons {
+    display: flex;
+    flex-direction: column;    
+    flex: 1;
+    font-size: unset;
+    transition: background-color 0.3s;
+}
+
+.top-row {        
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.top-row .clear{    
+    width: 50%;
+    font-size: larger;        
+	background-color:#61677A;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff;  
+}
+
+.top-row .clear:active{    
+    position:relative;	
+    background-color:#454a58;
+}
+
+.top-row .positive-negative{
+    width: 25%;
+    font-size: larger;
+}
+.top-row .division{
+    width: 25%;
+    font-size: larger;
+}
+
+.second-row{    
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.third-row {    
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.fourth-row {    
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.bottom-row {    
+    justify-content: space-between;
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+
+.bottom-row .zero {
+    width: 50%;
+    font-size: larger;
+}
+.bottom-row .decimal{
+    width: 25%;
+    font-size: larger;
+}
+.bottom-row .equals {
+    width: 25%;
+    font-size: larger;
+}
+
+.normal-button {
+    width: 25%;
+    font-size: larger;
+}
+
+.function-button {
+    font-size: larger;    
+	background-color:#D8D9DA;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+    transition: background-color 0.5s;
+}
+
+.function-button:active{
+    position:relative;	
+    background-color:#666667;    
+}
+
