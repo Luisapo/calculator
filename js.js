@@ -1,4 +1,4 @@
-// finding buttons
+// finding buttons 
 const operations = document.querySelectorAll(".normal-button.function-button"); // operator buttons
 const digits = document.querySelectorAll('.normal-button.digit'); // number buttons
 const generateTextElement = document.getElementById('generateText'); // display text
